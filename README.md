@@ -1,3 +1,5 @@
+![Portada del proyecto](images/portada_proyecto.png)
+
 # 📊 Análisis de Resoluciones de Amparo para la Identificación de Errores Procesales
 
 > Proyecto desarrollado como parte del Seminario de Titulación de la **Maestría en Análisis y Visualización de Datos Masivos**.
