@@ -102,14 +102,40 @@ Durante el proyecto se implementó el siguiente flujo de trabajo:
 
 # 📊 Resultados principales
 
-Entre los principales resultados obtenidos destacan:
 
-* Análisis de 40 resoluciones judiciales.
-* Construcción de un catálogo estructurado de errores procesales.
-* Identificación de patrones relacionados con fundamentación, motivación, valoración de pruebas y debido proceso.
-* Obtención de estadísticas descriptivas sobre el corpus documental.
-* Visualización de tendencias mediante gráficos generados en Python.
+El análisis permitió explorar las características del corpus documental e identificar expresiones relacionadas con posibles errores procesales mediante un enfoque basado en reglas.
 
+## Distribución de la longitud de las resoluciones
+
+![Distribución de la longitud de las resoluciones](images/boxplot_longitud.jpg)
+
+La longitud de las resoluciones presenta una variabilidad considerable. El diagrama de caja permite identificar documentos considerablemente más extensos que el resto del conjunto, los cuales fueron revisados como posibles valores atípicos sin eliminarlos del análisis.
+
+## Frecuencia de posibles errores procesales
+
+![Frecuencia de posibles errores procesales](images/frecuencia_errores.jpg)
+
+La clasificación permitió observar la frecuencia con la que aparecen distintas categorías asociadas con posibles errores procesales. Entre los conceptos analizados se encuentran la valoración de pruebas, la fundamentación, la motivación, el debido proceso y la presunción de inocencia.
+
+## Palabras frecuentes en las resoluciones
+
+![Palabras frecuentes en las resoluciones](images/palabras_frecuentes.jpg)
+
+El análisis de frecuencia ayuda a reconocer el vocabulario predominante dentro de las resoluciones. Estos resultados sirven como apoyo exploratorio para comprender el corpus, aunque la presencia frecuente de una palabra no implica por sí sola la existencia de un error procesal.
+
+## Búsqueda de expresiones jurídicas
+
+![Resultados de la búsqueda de expresiones jurídicas](images/expresiones_juridicas.jpg)
+
+La búsqueda de expresiones jurídicas permitió localizar fragmentos relevantes dentro de los documentos y construir variables asociadas con las categorías de análisis. Este procedimiento constituye la base del enfoque de clasificación mediante reglas utilizado en el proyecto.
+
+## Síntesis de hallazgos
+
+- Se analizaron 40 resoluciones públicas de amparo directo.
+- Se construyó un catálogo inicial de posibles errores procesales.
+- Se identificaron patrones relacionados con fundamentación, motivación, valoración de pruebas y debido proceso.
+- Se generaron variables auxiliares para cuantificar la cantidad de categorías detectadas en cada documento.
+- El análisis confirma la viabilidad de aplicar procesamiento de texto a documentos jurídicos no estructurados.
 ---
 
 # 💡 Habilidades demostradas
